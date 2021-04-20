@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKER</title>
+    <link href="css/poker.css" rel="stylesheet">
+   
+</head>
+
+<body class="logi">
+    
+    <div class="login-wrap">
+        <form class="user" id="FormLogin" method="POST" name="FormLogin" action="../html/cartas.html">
+            <div class="login-html">
+                
+                <div class="login-form">
+                    <div class="sign-in-htm">
+                        <div class="group">
+                            <label for="user" class="label">Usuario</label>
+                            <input name="ingresarUsuario" id="ingresarUsuario" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Contraseña</label>
+                            <input name="ingresarContrasena" id="ingresarContrasena" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <button type="submit" class="button" >Iniciar Sesion</button>
+                        </div>
+                        <div class="hr"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vista/vendor/jquery/jquery.min.js"></script>
+    <script src="../vista/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
